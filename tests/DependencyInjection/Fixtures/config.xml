@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<container xmlns="http://symfony.com/schema/dic/services" xmlns:safe_browsing="safe_browsing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <safe_browsing:config>
+        <safe_browsing:configs>
+            <safe_browsing:key>apikey</safe_browsing:key>
+            <safe_browsing:client>app</safe_browsing:client>
+            <safe_browsing:appver>2.3.4</safe_browsing:appver>
+            <safe_browsing:pver>3.1</safe_browsing:pver>
+        </safe_browsing:configs>
+        <safe_browsing:cache>caching.service</safe_browsing:cache>
+        <safe_browsing:http-client>http_client.service</safe_browsing:http-client>
+    </safe_browsing:config>
+</container>
