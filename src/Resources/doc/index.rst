@@ -54,7 +54,7 @@ This bundle requires a minimum configuration:
         configs:
             key: [API key]
 
-To obtain the API key read the [Getting Started](https://developers.google.com/safe-browsing/lookup_guide#GettingStarted).
+To obtain the API key read the `Getting Started`_.
 
 Readings
 --------
@@ -65,3 +65,4 @@ Readings
 .. _`installation chapter`: https://getcomposer.org/doc/00-intro.md
 .. _`Configuration Reference`: https://github.com/EmanueleMinotto/SafeBrowsingBundle/tree/master/src/Resources/doc/configuration-reference.rst
 .. _`Validator Constraint`: https://github.com/EmanueleMinotto/SafeBrowsingBundle/tree/master/src/Resources/doc/validator-constraints.rst
+.. _`Getting Started`: https://developers.google.com/safe-browsing/lookup_guide#GettingStarted
